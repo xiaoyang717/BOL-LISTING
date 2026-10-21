@@ -1,0 +1,21 @@
+# WorkBuddy / IDE 内部状态（含个人上下文，不提交）
+.workbuddy/
+.openclaw/
+.consolidate-state.json
+sessions/
+
+# 个人记忆与每日日志（含个人/业务敏感上下文，不提交）
+MEMORY.md
+memory/
+
+# 临时脚本（硬编码本地路径，不适用于其他环境）
+temp_excel.ps1
+
+# 操作系统与编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
